@@ -69,9 +69,9 @@ const KO_CONTENT: ContentData = {
   ],
   hero: {
     mainCopy: `"Only the market can tell\nif your idea is good.\nEverything else is just opinion."`,
-    subCopy: "시장의 선택을 받을 수 있는, 좋은 서비스를 설계합니다.",
+    subCopy: "",
     author: "10년 차 Product Owner, 김성재",
-    intro: `좋은 서비스는 책상 위에서 만들어지는 것이 아니라, 시장에서 선택받을 때 비로소 만들어집니다.\n저는 규제의 복잡함, 기술의 한계, 물류의 불확실성 속에서도\n사용자의 문제를 가장 단순하게 해결함으로써\n서비스가 시장의 선택을 받을 확률을 높이는 일을 해왔습니다.`
+    intro: `좋은 서비스는 책상 위에서 만들어지는 것이 아니라,\n시장에서 선택받을 때 비로소 만들어집니다.\n복잡한 규제, 기술의 한계, 부족한 인프라 속에서도\n사용자의 문제를 가장 단순하게 해결함으로써\n서비스가 시장의 선택을 받기 위해 노력해왔습니다.`
   },
   about: {
     philosophyTitle: "The Builder's Mindset",
@@ -102,7 +102,7 @@ const KO_CONTENT: ContentData = {
         role: "Product Foundation & Joint Loan Squad, PO"
       },
       {
-        company: "Wanted Lab",
+        company: "Wantedlab (원티드)",
         period: "2022.09 - 2023.05",
         role: "Core Team, PO"
       },
@@ -112,14 +112,14 @@ const KO_CONTENT: ContentData = {
         role: "Logistics Product Group, PO"
       },
       {
-        company: "Woowa Bros (배달의민족)",
+        company: "Woowabros (배달의민족)",
         period: "2020.05 - 2021.06",
         role: "Delivery Platform Team, PM"
       },
       {
         company: "SSG.COM",
         period: "2016.03 - 2020.05",
-        role: "Platform & Admin Planning Team, Planner"
+        role: "Platform & Admin Planning Team, Service Planner"
       }
     ]
   },
@@ -165,7 +165,7 @@ const KO_CONTENT: ContentData = {
   footer: {
     title: "Contact",
     description: "함께 해결해야 할 복잡한 문제가 있다면,\n언제든 연락 주세요.",
-    copyright: "© 2025 Kim Seongjae. All rights reserved."
+    copyright: "© 2025 Seongjae (Felix) Kim. All rights reserved."
   }
 };
 
@@ -180,7 +180,7 @@ const EN_CONTENT: ContentData = {
   hero: {
     mainCopy: `"Only the market can tell\nif your idea is good.\nEverything else is just opinion."`,
     subCopy: "Designing good services chosen by the market.",
-    author: "10-year Product Owner, Seongjae Kim",
+    author: "10-year Product Owner, Seongjae (Felix) Kim",
     intro: `Great services are not created at a desk, but when they are chosen by the market.\nAmidst complex regulations, technological limitations, and logistics uncertainties,\nI have increased the probability of market selection\nby solving user problems in the simplest possible way.`
   },
   about: {
@@ -212,7 +212,7 @@ const EN_CONTENT: ContentData = {
         role: "Product Foundation & Joint Loan Squad, PO"
       },
       {
-        company: "Wanted Lab",
+        company: "Wantedlab (원티드)",
         period: "2022.09 - 2023.05",
         role: "Core Team, PO"
       },
@@ -222,14 +222,14 @@ const EN_CONTENT: ContentData = {
         role: "Logistics Product Group, PO"
       },
       {
-        company: "Woowa Bros (Baemin)",
+        company: "Woowabros (Baemin)",
         period: "2020.05 - 2021.06",
         role: "Delivery Platform Team, PM"
       },
       {
         company: "SSG.COM",
         period: "2016.03 - 2020.05",
-        role: "Platform & Admin Planning Team, Planner"
+        role: "Platform & Admin Planning Team, Service Planner"
       }
     ]
   },
@@ -275,7 +275,7 @@ const EN_CONTENT: ContentData = {
   footer: {
     title: "Contact",
     description: "Please feel free to contact me if you have any complex problems to solve together.",
-    copyright: "© 2025 Kim Seongjae. All rights reserved."
+    copyright: "© 2025 Seongjae (Felix) Kim. All rights reserved."
   }
 };
 

@@ -39,7 +39,7 @@ const Header: React.FC<HeaderProps> = ({ lang, setLang, navItems }) => {
           onClick={() => scrollTo('home')} 
           className="text-xl font-display font-bold text-paper tracking-tight"
         >
-          Seongjae Kim
+          Seongjae (Felix) Kim
         </button>
 
         {/* Desktop Nav */}

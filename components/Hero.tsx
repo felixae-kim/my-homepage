@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ContentData } from '../types';
 import { motion } from 'framer-motion';
@@ -11,7 +10,7 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
   return (
     <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative pt-20">
       <motion.div 
-        className="max-w-4xl flex flex-col items-center space-y-12"
+        className="max-w-4xl flex flex-col items-center space-y-10"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -23,11 +22,23 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
           </h1>
         </div>
 
-        {/* Sub Copy & Author */}
-        <div className="space-y-4">
-          <h2 className="text-xl md:text-2xl font-bold text-paper tracking-tight">
-            {content.subCopy}
-          </h2>
+        {/* Sub Copy, Image & Author */}
+        <div className="space-y-4 flex flex-col items-center">
+          {content.subCopy && (
+            <h2 className="text-xl md:text-2xl font-bold text-paper tracking-tight mb-6">
+              {content.subCopy}
+            </h2>
+          )}
+          
+          {/* Profile Image - Increased size */}
+          <div className="relative w-48 md:w-80 rounded-xl overflow-hidden border-2 border-paper/20 shadow-2xl mb-6">
+            <img 
+              src="my-profile1.jpg" 
+              alt="Seongjae Kim Profile" 
+              className="w-full h-auto block"
+            />
+          </div>
+
           <p className="text-lg md:text-xl text-paper/80 font-display font-medium">
             {content.author}
           </p>
