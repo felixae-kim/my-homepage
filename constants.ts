@@ -1,5 +1,4 @@
-
-import { ContentData, Language } from './types';
+import { ContentData } from './types';
 
 const LECTURES_COMMON = {
   ko: [
