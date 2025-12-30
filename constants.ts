@@ -8,9 +8,10 @@ const LECTURES_COMMON = {
         { host: "글로벌핀테크진흥센터(FINPC)", topic: "디지털금융 전문인력 양성과정" },
         { host: "삼성금융연수원", topic: "디지털 입문 과정: 디지털서비스 A to Z" },
         { host: "삼성화재", topic: "디지털 서비스 기획 과정" },
-        { host: "삼성생명", topic: "디자인씽킹 과정" },
         { host: "KB 금융", topic: "디지털 서비스 기획 과정" },
+        { host: "삼성생명", topic: "디자인씽킹 과정" },
         { host: "하나금융TI", topic: "디자인씽킹 과정" },
+        { host: "CJ올리브네트웍스", topic: "AX해커톤 디자인씽킹 과정" },
         { host: "네이버클라우드", topic: "프로덕트 리딩 역량 향상 과정" },
       ]
     },
@@ -25,7 +26,8 @@ const LECTURES_COMMON = {
     {
       title: "Academic Lectures",
       items: [
-        { host: "이화여자대학교", topic: "e커머스 서비스 기획 과정" }
+        { host: "이화여자대학교", topic: "e커머스 서비스 기획 과정" },
+        { host: "전북대학교", topic: "스타트업 디자인 스쿨" }
       ]
     }
   ],
@@ -36,9 +38,10 @@ const LECTURES_COMMON = {
         { host: "Global Fintech Promotion Center (FINPC)", topic: "Digital Finance Specialist Training Course" },
         { host: "Samsung Finance Academy", topic: "Digital Intro: Digital Service A to Z" },
         { host: "Samsung Fire & Marine Insurance", topic: "Digital Service Planning Course" },
-        { host: "Samsung Life Insurance", topic: "Design Thinking Course" },
         { host: "KB Financial Group", topic: "Digital Service Planning Course" },
+        { host: "Samsung Life Insurance", topic: "Design Thinking Course" },
         { host: "Hana TI", topic: "Design Thinking Course" },
+        { host: "CJ OliveNetworks", topic: "AX Hackathon Design Thinking Course" },
         { host: "Naver Cloud", topic: "Product Leadership Improvement Course" },
       ]
     },
@@ -53,7 +56,8 @@ const LECTURES_COMMON = {
     {
       title: "Academic Lectures",
       items: [
-        { host: "Ewha Womans University", topic: "e-Commerce Service Planning Course" }
+        { host: "Ewha Womans University", topic: "e-Commerce Service Planning Course" },
+        { host: "Chonbuk National University", topic: "Startup Design School" }
       ]
     }
   ]
@@ -91,6 +95,11 @@ const KO_CONTENT: ContentData = {
       }
     ],
     journeyItems: [
+      {
+        company: "Daniel Project",
+        period: "2025.12 - Present",
+        role: "EnterTech Product, Product Lead (CPO)"
+      },
       {
         company: "LINE Financial",
         period: "2024.11 - 2025.07",
@@ -202,6 +211,11 @@ const EN_CONTENT: ContentData = {
     ],
     journeyItems: [
       {
+        company: "Daniel Project",
+        period: "2025.12 - Present",
+        role: "EnterTech Product, Product Lead (CPO)"
+      },
+      {
         company: "LINE Financial",
         period: "2024.11 - 2025.07",
         role: "Thailand Fintech Product Team, PO"
@@ -212,7 +226,7 @@ const EN_CONTENT: ContentData = {
         role: "Product Foundation & Joint Loan Squad, PO"
       },
       {
-        company: "Wantedlab (원티드)",
+        company: "Wantedlab (Wanted)",
         period: "2022.09 - 2023.05",
         role: "Core Team, PO"
       },
