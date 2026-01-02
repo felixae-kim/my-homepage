@@ -30,10 +30,10 @@ const Hero: React.FC<HeroProps> = ({ content }) => {
             </h2>
           )}
           
-          {/* Profile Image - Explicit relative path for GitHub Pages */}
+          {/* Profile Image - Removed ./ prefix for deployment stability */}
           <div className="relative w-48 md:w-80 rounded-xl overflow-hidden border-2 border-paper/20 shadow-2xl mb-6">
             <img 
-              src="./my-profile1.jpg" 
+              src="my-profile1.jpg" 
               alt="Seongjae Kim Profile" 
               className="w-full h-auto block"
             />
